@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JS Circle Demo</title>
+		<script src="js/circle_ES6.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+				let cLib = new Circles(100);
+
+				cLib.expand_circles(100); // expand the circle once it get 100px
+				cLib.draw_circles("canvas"); // draw 100 circles on #canvas
+			});
+		</script>
+	</head>
+	<body>
+		<div id="canvas"></div>
+	</body>
+</html>
