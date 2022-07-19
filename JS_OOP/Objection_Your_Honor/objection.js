@@ -13,6 +13,7 @@ class Prosecutor extends Person {
 	prosecute(defendant, criminal_case) {
 		defendant.setCase(criminal_case);
 		if (
+		
 			defendant.age >= criminal_case.ageLimit.minAge &&
 			defendant.age <= criminal_case.ageLimit.maxAge
 		) {
