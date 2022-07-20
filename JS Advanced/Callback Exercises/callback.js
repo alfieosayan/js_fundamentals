@@ -9,10 +9,10 @@ function filterArray(array, callback) {
 	return newArr;
 }
 
-let fa = filterArray([1, 2, 3, 4, 15], function (num) {
+let filter_array = filterArray([1, 2, 3, 4, 15], function (num) {
 	return num > 10;
 });
-console.log(fa);
+console.log(filter_array);
 
 // 2.
 function add(a, b) {
